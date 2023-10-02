@@ -1,6 +1,7 @@
-package firstApp;
+package firstapp;
 
 import java.util.Scanner;
+
 public class IsoscelesTriangle {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -16,8 +17,11 @@ public class IsoscelesTriangle {
 
         if (a == b) {
             System.out.println("The triangle is isosceles");
-        }
-        else {
+        } else if (a == c) {
+            System.out.println("The triangle is isosceles");
+        } else if (b == c) {
+            System.out.println("The triangle is isosceles");
+        } else {
             System.out.println("The triangle is not isosceles");
         }
     }

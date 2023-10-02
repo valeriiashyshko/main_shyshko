@@ -1,6 +1,7 @@
-package firstApp;
+package firstapp;
 
 import java.util.Scanner;
+
 public class CheckOddEven {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -13,10 +14,9 @@ public class CheckOddEven {
         remainder = num % 2;
         if (remainder == 0) {
             System.out.println(num + " is an even number");
-        }
-        else
+        } else {
             System.out.println(num + " is an odd number");
-
+        }
         System.out.println("Bye!");
     }
 }
